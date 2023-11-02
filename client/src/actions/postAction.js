@@ -218,7 +218,7 @@ export const deletePost = (id) => {
       });
   };
 };
-export const updatePost = (id, data) => {
+export const UpdatePosts = (id, data) => {
   console.log("2. masuk action");
   return (dispatch) => {
     // loading
